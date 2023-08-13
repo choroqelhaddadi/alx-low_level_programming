@@ -1,8 +1,7 @@
 #include <stdio.h>
- /**
+/**
  * main - function main is the entry point of the C program
- *
- * Return: zero if working correctly
+ * Return: program should always return 0 when success
  */
 int main(void)
 {
