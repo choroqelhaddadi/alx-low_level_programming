@@ -12,9 +12,9 @@ int main(void)
 	int sum, ch;
 
 	srand(time(NULL));
-	while (sum <= 2646)
+	while (sum <= 2645)
 	{
-		ch = rand() % 120;
+		ch = rand() % 128;
 		putchar(ch);
 		sum += ch;
 	}
