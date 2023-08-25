@@ -13,7 +13,7 @@ char *leet(char *s)
 	char code1[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	char code2[10] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
-	while (s[a] != '\n')
+	while (s[a] != '\0')
 	{
 		for (b = 0; b < 10; b++)
 		{
