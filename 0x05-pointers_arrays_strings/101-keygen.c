@@ -9,15 +9,16 @@
 
 int main(void)
 {
-	int sum, ch;
+	int total, car;
 
 	srand(time(NULL));
-	while (sum <= 2645)
+	while (total <= 2645)
 	{
-		ch = rand() % 128;
-		putchar(ch);
-		sum += ch;
+		car = rand() % 128;
+		putchar(car);
+		total
+ += car;
 	}
-	putchar(2772 - sum);
+	putchar(2772 - total);
 	return (0);
 }
