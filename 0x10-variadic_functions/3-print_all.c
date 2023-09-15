@@ -40,7 +40,7 @@ void print_all(const char * const format, ...)
 				continue;
 			}
 			i++;
-			if (format[i])
+			if (*(format + i))
 				printf(", ");
 		}
 		break;
